@@ -1,0 +1,67 @@
+.time-bloco-principal {
+    display: flex;
+    padding: 30px 0px;
+    border-bottom: 1px solid #ddd;
+}
+
+.time-bloco-loteria {
+    display: flex;
+}
+
+.time-nome-loteria {
+    font-size: 28px;
+    font-weight: bold;
+    color: #00ff48;
+    margin-left: 10px;
+}
+
+.time-bloco-estimativa {
+    width: 240px;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.time-texto-estimativa {
+    font-size: 15px;
+    color: #4c556c;
+}
+
+.time-valor-estimativa {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #00ff48;
+}
+
+.time-bloco-direita {
+    margin-left: 50px;
+}
+
+.time-linha-bola {
+    display: flex;
+}
+
+.time-bola {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #FFF600;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 0px 10px;
+}
+
+.time-texto-acumulou {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0066b3;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+.time-data-concurso {
+    margin-top: 15px;
+    color: #4c556c;
+    padding-left: 15px;
+    font-size: 15px;
+}
