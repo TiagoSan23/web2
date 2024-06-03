@@ -1,0 +1,254 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5px;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  padding: 0;
+  margin-left: 25px;
+  margin-bottom: 0; /* Adiciona uma margem inferior */
+}
+
+.menu li {
+  margin-right: 20px;
+  margin-bottom: 20px; /* Adiciona uma margem inferior */
+}
+
+.menu li a {
+  color: purple;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu li a:hover {
+  color: grey;
+}
+
+.menu li.active a {
+  color: grey;
+}
+
+.active a {
+  color: gray;
+}
+
+/* Estilos específicos para cada página */
+
+.mega-bloco-principal,
+.quina-bloco-principal, 
+.timemania-bloco-principal {
+  display: flex;
+  padding: 30px 0px;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  padding-top: 50px;
+}
+
+.mega-bloco-loteria,
+.quina-bloco-loteria,
+.timemania-bloco-loteria
+{
+  display: flex;
+}
+
+.mega-nome-loteria {
+  font-size: 28px;
+  font-weight: bold;
+  color: #209869;
+  margin-left: 10px;
+}
+
+.mega-bloco-estimativa,
+.quina-bloco-estimativa,
+.timemania-bloco-estimativa
+{
+  width: 240px;
+  margin-left: 45px;
+  margin-top: 15px;
+}
+
+.mega-texto-estimativa {
+  font-size: 15px;
+  color: #4c556c;
+}
+
+.mega-valor-estimativa {
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #209869;
+}
+
+.mega-bloco-direita,
+.quina-bloco-direita,
+.timemania-bloco-direita
+{
+  margin-left: 50px;
+}
+
+.mega-linha-bola,
+.quina-linha-bola,
+.timemania-linha-bola {
+  display: flex;
+}
+
+.mega-bola {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #209869;
+  color: #fff;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 0px 10px;
+}
+
+.mega-texto-acumulou {
+  font-size: 28px;
+  font-weight: bold;
+  color: #0066b3;
+  margin-top: 15px;
+  padding-left: 15px;
+}
+
+.mega-data-concurso {
+  margin-top: 15px;
+  color: #4c556c;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+
+.quina-nome-loteria {
+  font-size: 28px;
+  font-weight: bold;
+  color: #260085;
+  margin-left: 10px;
+}
+
+
+.quina-texto-estimativa {
+  font-size: 15px;
+  color: #0066b3;
+}
+
+.quina-valor-estimativa {
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #0066b3;
+}
+
+.mega-bloco-direita,
+.timemania-bloco-direita,
+.quina-bloco-direita {
+  margin-left: 50px;
+}
+
+.mega-linha-bola,
+.timemania-linha-bola,
+.quina-linha-bola {
+  display: flex;
+}
+
+.quina-bola {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #0066b3;
+  color: #fff;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 0px 10px;
+}
+
+.quina-texto-acumulou {
+  font-size: 28px;
+  font-weight: bold;
+  color: #0066b3;
+  margin-top: 15px;
+  padding-left: 15px;
+}
+
+.quina-data-concurso {
+  margin-top: 15px;
+  color: #4c556c;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+
+.timemania-nome-loteria {
+  font-size: 28px;
+  font-weight: bold;
+  color: #00ff48;
+  margin-left: 10px;
+}
+
+.timemania-texto-estimativa {
+  font-size: 15px;
+  color: #0066b3;
+}
+
+.timemania-valor-estimativa {
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #00ff48;
+}
+
+
+.timemania-bola {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #FFF600;
+  color: #049645;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 0px 10px;
+}
+
+.timemania-texto-acumulou {
+  font-size: 28px;
+  font-weight: bold;
+  color: #0066b3;
+  margin-top: 15px;
+  padding-left: 15px;
+}
+
+.timemania-data-concurso {
+  margin-top: 15px;
+  color: #4c556c;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+.carregando {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.megasena {
+  color: green !important; /* Cor padrão da Mega Sena */
+}
+
+.megasena:active, .megasena:focus { /* Quando o link é clicado ou focado */
+  color: gray !important;
+  
+}
+
+
